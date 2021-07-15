@@ -3,9 +3,9 @@ main ( ) {
 	int a;
 	scanf ("%d", &a);
 	if ( a > 0 ) 
-	 printf ("¾ç¼ö");
+	 printf ("ì–‘ìˆ˜");
     else if ( a < 0 ) 
-     printf ("À½¼ö");
+     printf ("ìŒìˆ˜");
     else 
 	printf ("0"); 
 }
