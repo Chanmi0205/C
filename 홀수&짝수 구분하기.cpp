@@ -3,7 +3,7 @@ main ( ) {
 	int a;
 	scanf ("%d", &a);
 	if ( a%2==0 ) 
-	printf ("Â¦¼ö");
+	printf ("ì§ìˆ˜");
 	else
-	printf ("È¦¼ö");
+	printf ("í™€ìˆ˜");
 }
