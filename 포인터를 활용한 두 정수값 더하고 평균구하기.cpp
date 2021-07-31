@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(void) {
 	
-	int a=10, b=15, tobal;
+	int a=10, b=15, total;
 	double avg;
 	int *pa, *pb;
-	int *pt = &tobal;
+	int *pt = &total;
 	double *pg = &avg;
 	 
 	pa = &a;
@@ -13,9 +13,9 @@ int main(void) {
 	*pt = *pa + *pb;
 	*pg = *pt / 2.0;
 	
-	printf ("µÎ Á¤¼öÀÇ °ª : %d, %d\n", *pa, *pb);
-	printf ("µÎ Á¤¼öÀÇ ÇÕ : %d\n", *pt);
-	printf ("µÎ Á¤¼öÀÇ Æò±Õ : %.1lf", *pg);
+	printf ("ë‘ ì •ìˆ˜ì˜ ê°’ : %d, %d\n", *pa, *pb);
+	printf ("ë‘ ì •ìˆ˜ì˜ í•© : %d\n", *pt);
+	printf ("ë‘ ì •ìˆ˜ì˜ í‰ê·  : %.1lf", *pg);
 	
 	return 0;
 } 
