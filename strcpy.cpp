@@ -4,6 +4,6 @@ int main(void) {
 	char input[10] = "ABC";
 	char result[5] = "Love";
 	strcpy(result, input);
-	printf("¹®ÀÚ¿­ º¹»ç : %s\n", result);
+	printf("Â¹Â®Ã€ÃšÂ¿Â­ ÂºÂ¹Â»Ã§ : %s\n", result);
 	return 0;
 } 
