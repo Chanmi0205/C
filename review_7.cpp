@@ -3,8 +3,8 @@
 int main(void) {
 	int ary[5];
 	
-	printf ("  aryÀÇ °ª : %u\t", ary); //ÁÖ¼Ò·Î¼­ÀÇ ¹è¿­¸íÀÇ °ª
-	printf ("aryÀÇ ÁÖ¼Ò : %u\n", &ary);  //¹è¿­ÀÇ ÁÖ¼Ò  
+	printf ("  aryì˜ ê°’ : %u\t", ary); //ì£¼ì†Œë¡œì„œì˜ ë°°ì—´ëª…ì˜ ê°’
+	printf ("aryì˜ ì£¼ì†Œ : %u\n", &ary);  //ë°°ì—´ì˜ ì£¼ì†Œ  
 	printf ("   ary + 1 : %u\t", ary+1);
 	printf ("  &ary + 1 : %u\n", &ary+1); 
 	
