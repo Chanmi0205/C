@@ -8,7 +8,7 @@ struct point {
 
 void comparePoint ( struct point p1, struct point p2 ) {
 	if ( (p1.x == p2.x) && ( p1.y == p2.y ) ) {
-		printf ("p1°ú p2°¡ °°½À´Ï´Ù.");
+		printf ("p1Â°Ãº p2Â°Â¡ Â°Â°Â½Ã€Â´ÃÂ´Ã™.");
 	}	
 	
 }
