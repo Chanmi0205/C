@@ -1,5 +1,5 @@
 #include <stdio.h>
-int hour;  //Àü¿ª º¯¼ö
+int hour;  //ì „ì—­ ë³€ìˆ˜
 int minute;
 int minuteAdd; 
  
@@ -11,13 +11,13 @@ void counter()
 	hour %= 24;
 }
 int main (void) {
-    printf ("½Ã¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    printf ("ì‹œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%d", &hour); 
-	printf ("ºĞÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("ë¶„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%d", &minute); 
-	printf ("´õÇÒ ºĞÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("ë”í•  ë¶„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%d", &minuteAdd);
 	counter();
-	printf ("´õÇØÁø ½Ã°£Àº %d½Ã %dºĞ ÀÔ´Ï´Ù.", hour, minute); 
+	printf ("ë”í•´ì§„ ì‹œê°„ì€ %dì‹œ %dë¶„ ì…ë‹ˆë‹¤.", hour, minute); 
 	return 0;
 }
