@@ -9,10 +9,10 @@ int main(void)
 {
 	int sel;
 	
-	printf("01 µÎ Á¤¼öÀÇ ÇÕ\n");
-	printf("02 µÎ Á¤¼öÀÇ °ö\n");
-	printf("03 µÎ Á¤¼ö Áß¿¡¼­ Å« °ª °è»ê\n");
-	printf("¿øÇÏ´Â ¿¬»êÀ» ¼±ÅÃÇÏ¼¼¿ä : ");
+	printf("01 ë‘ ì •ìˆ˜ì˜ í•©\n");
+	printf("02 ë‘ ì •ìˆ˜ì˜ ê³±\n");
+	printf("03 ë‘ ì •ìˆ˜ ì¤‘ì—ì„œ í° ê°’ ê³„ì‚°\n");
+	printf("ì›í•˜ëŠ” ì—°ì‚°ì„ ì„ íƒí•˜ì„¸ìš” : ");
 	scanf("%d", &sel);
 	
 	switch(sel) 
@@ -30,10 +30,10 @@ void func(int (*fp)(int, int))
 	int a, b;
 	int res;
 	
-	printf("µÎ Á¤¼öÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä :");
+	printf("ë‘ ì •ìˆ˜ì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” :");
 	scanf("%d%d", &a, &b);
 	res = fp(a, b);
-	printf("°á°ú°ªÀº : %d\n", res);
+	printf("ê²°ê³¼ê°’ì€ : %d\n", res);
 }
 
 int sum(int a, int b) 
