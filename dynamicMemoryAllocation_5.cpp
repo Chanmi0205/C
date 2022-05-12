@@ -7,7 +7,7 @@ int main(void) {
 	
 	pi = (int *)malloc(sizeof(int));
 	if ( pi == NULL ) {
-		printf("# ¸Þ¸ð¸®°¡ ºÎÁ·ÇÕ´Ï´Ù.\n");
+		printf("# ë©”ëª¨ë¦¬ê°€ ë¶€ì¡±í•©ë‹ˆë‹¤.\n");
 		exit(1);
 	}
 	
@@ -16,8 +16,8 @@ int main(void) {
 	*pi = 10;
 	*pd = 3.4;
 	
-	printf("Á¤¼öÇüÀ¸·Î »ç¿ë : %d\n", *pi);
-	printf("½Ç¼öÇüÀ¸·Î »ç¿ë : %.1lf\n", *pd);
+	printf("ì •ìˆ˜í˜•ìœ¼ë¡œ ì‚¬ìš© : %d\n", *pi);
+	printf("ì‹¤ìˆ˜í˜•ìœ¼ë¡œ ì‚¬ìš© : %.1lf\n", *pd);
 	
 	free(pi);
 	free(pd);
