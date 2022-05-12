@@ -6,8 +6,8 @@ int main(void) {
 	pa = &a;
 	*pa = 10;
 
-	printf ("Æ÷ÀÎÅÍ·Î a°ª Ãâ·Â : %d\n", *pa);
-	printf ("º¯¼ö¸íÀ¸·Î a°ª Ãâ·Â : %d", a);
+	printf ("í¬ì¸í„°ë¡œ aê°’ ì¶œë ¥ : %d\n", *pa);
+	printf ("ë³€ìˆ˜ëª…ìœ¼ë¡œ aê°’ ì¶œë ¥ : %d", a);
 
 	return 0;
 } 
