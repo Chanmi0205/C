@@ -6,33 +6,33 @@ char b, ch1 = '+', ch2 = '-', ch3 = '*', ch4 = '/';
 	
 main ( ) {
 
-	printf ("(¼ıÀÚ ±âÈ£ ¼ıÀÚ)Çü\nÀÔ·Â : ");
+	printf ("(ìˆ«ì ê¸°í˜¸ ìˆ«ì)í˜•\nì…ë ¥ : ");
 	scanf ("%d %c %d", &a, &b, &c);
 	
 	if ( b == ch1 ) {
 	d = a + c;
-	printf ("°á°ú°ª : %d", d);
+	printf ("ê²°ê³¼ê°’ : %d", d);
     } 
 	
 	else if ( b == ch2 ) {
 	d = a - c;
-	printf ("°á°ú°ª : %d", d); 
+	printf ("ê²°ê³¼ê°’ : %d", d); 
     }
     
 	else if ( b == ch3 ) {
 	d = a * c;
-	printf ("°á°ú°ª : %d", d); 
+	printf ("ê²°ê³¼ê°’ : %d", d); 
     }
     
     
 	else if ( b == ch4 ) {
 	d = a / c;
 	e = a % c;
-	printf ("°á°ú°ª  ¸ò:%d, ³ª¸ÓÁö:%d", d, e); 
+	printf ("ê²°ê³¼ê°’  ëª«:%d, ë‚˜ë¨¸ì§€:%d", d, e); 
     }
    
 	else {
-	printf ("Àß¸øµÈ ÀÔ·Â°ªÀÔ´Ï´Ù.\n");
+	printf ("ì˜ëª»ëœ ì…ë ¥ê°’ì…ë‹ˆë‹¤.\n");
     }
     return 0;	
 }
