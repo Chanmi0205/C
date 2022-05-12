@@ -7,17 +7,17 @@ int main(void) {
 	
 	pi = (int *)malloc(5 * sizeof(int));
 	if ( pi == NULL) {
-		printf("¸Ş¸ğ¸®°¡ ºÎÁ·ÇÕ´Ï´Ù.\n");
+		printf("ë©”ëª¨ë¦¬ê°€ ë¶€ì¡±í•©ë‹ˆë‹¤.\n");
 		exit(1);
 	}
 	
-	printf("´Ù¼¸ ¸íÀÇ ³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :  ");
+	printf("ë‹¤ì„¯ ëª…ì˜ ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” :  ");
 	for ( i=0; i<5; i++ ) {
 		scanf("%d", &pi[i]);
 		sum += pi[i];
 	}
 	
-	printf("´Ù¼¸ ¸íÀÇ Æò±Õ ³ªÀÌ : %.1lf\n", (sum / 5.0));
+	printf("ë‹¤ì„¯ ëª…ì˜ í‰ê·  ë‚˜ì´ : %.1lf\n", (sum / 5.0));
 	free(pi);
 	
 	return 0;
