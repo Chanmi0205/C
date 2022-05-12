@@ -4,16 +4,16 @@ void print_ary(int (*)[4]);
 
 int main(void) {
 	int ary[3][4] = { {1,2,3,4}, {5,6,7,8}, {9,10,11,12} };
-	print_ary(ary);  //¹è¿­¸íÀ» ÀÎ¼ö·Î ÁÖ°í ÇÔ¼ö È£Ãâ  
+	print_ary(ary);  //ë°°ì—´ëª…ì„ ì¸ìˆ˜ë¡œ ì£¼ê³  í•¨ìˆ˜ í˜¸ì¶œ  
 	
 	return 0;
 }
 
-void print_ary(int (*pa)[4]) {   //¸Å°³º¯¼ö´Â ¹è¿­ Æ÷ÀÎÅÍ 
+void print_ary(int (*pa)[4]) {   //ë§¤ê°œë³€ìˆ˜ëŠ” ë°°ì—´ í¬ì¸í„° 
 	int i, j;
 	for ( i=0; i<3; i++ ) {
 		for ( j=0; j<4; j++ ) {
-			printf ("%5d", pa[i][j]);  //pa¸¦ 2Â÷¿ø ¹è¿­Ã³·³ »ç¿ë 
+			printf ("%5d", pa[i][j]);  //paë¥¼ 2ì°¨ì› ë°°ì—´ì²˜ëŸ¼ ì‚¬ìš© 
 		}
 		printf ("\n");
 	}
