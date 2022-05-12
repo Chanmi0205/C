@@ -8,8 +8,8 @@ main ( ) {
 			a++;
 			mid=(left+right)/2;
 			if (num == d[mid]) {
-				printf ("%d¹øÂ°¿¡ ÀÖÀ½\n", mid+1);
-				printf ("%d¹ø¼öÇà\n", a);
+				printf ("%dÅ¡Å™Ã‚Â°Å¼Ä„ Å”Ã–Å”Ë\n", mid+1);
+				printf ("%dÅ¡Å™ÅºÃ¶Ã‡Å•\n", a);
 				break;
 			}
 			if ( num > d[mid] )
