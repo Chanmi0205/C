@@ -6,12 +6,12 @@ void assign20(void);
 int a;
 
 int main(void) { 
-printf ("ÇÔ¼ö È£Ãâ Àü a °ª : %d\n", a);
+printf ("í•¨ìˆ˜ í˜¸ì¶œ ì „ a ê°’ : %d\n", a);
 
 assign10();
 assign20();
 
-printf ("ÇÔ¼ö È£Ãâ ÈÄ a °ª : %d\n", a);
+printf ("í•¨ìˆ˜ í˜¸ì¶œ í›„ a ê°’ : %d\n", a);
 
    return 0;
 }
