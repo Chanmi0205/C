@@ -6,14 +6,14 @@ int main(void) {
 	int i = 0;
 	pc = (char *)malloc(100 * sizeof(char));
 	if ( pc == NULL ) {
-		printf ("µ¿Àû ¸Þ¸ð¸® ÇÒ´ç¿¡ ½ÇÆÐÇß½À´Ï´Ù.\n");
+		printf ("ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.\n");
 		exit(1);
 	}
-	/* pc°¡ °¡¸£Å°´Â Æ÷ÀÎÅÍ¸¦ 1¾¿ Áõ°¡½ÃÅ°¸ç ¾ËÆÄºª ¼Ò¹®ÀÚ¸¦ »ðÀÔÇÔ. */
+	/* pcê°€ ê°€ë¥´í‚¤ëŠ” í¬ì¸í„°ë¥¼ 1ì”© ì¦ê°€ì‹œí‚¤ë©° ì•ŒíŒŒë²³ ì†Œë¬¸ìžë¥¼ ì‚½ìž…í•¨. */
 	for ( i=0; i<26; i++ ) {
 		*(pc+i) = 'a' + i;
 	} 
-	/* ¸¶½ºÅ° ÄÚµå¿¡¼­ 0Àº NULLÀ» ÀÇ¹Ì */ 
+	/* ë§ˆìŠ¤í‚¤ ì½”ë“œì—ì„œ 0ì€ NULLì„ ì˜ë¯¸ */ 
 	*(pc+i) = 0;
 	
 	printf ("%s\n", pc);
