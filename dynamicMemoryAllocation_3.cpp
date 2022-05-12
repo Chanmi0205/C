@@ -5,7 +5,7 @@ int main (void) {
 	int *pi, i;
 	pi = (int *)malloc(5 * sizeof(int));
 	if ( pi == NULL ) {
-		printf ("µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç¿¡ ½ÇÆĞÇß½À´Ï´Ù. \n");
+		printf ("ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. \n");
 		exit(1);
 	}
 	pi[0] = 100;
