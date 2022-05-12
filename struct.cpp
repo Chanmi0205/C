@@ -4,7 +4,7 @@
 struct student {
 	int number;
 	char name[20];
-	double grade;  //GTA -> ÇĞÁ¡ 
+	double grade;  //GTA -> í•™ì  
 };
 
 int main (void) {
@@ -12,16 +12,16 @@ int main (void) {
 	int i;
 	
 	for ( i=0; i < SIZE; i++ ) {
-		printf ("ÇĞ¹øÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf ("í•™ë²ˆì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		scanf ("%d", &list[i].number);
-		printf ("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf ("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		scanf ("%s", &list[i].name);
-		printf ("ÇĞÁ¡À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf ("í•™ì ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		scanf ("%lf", &list[i].grade);
 	} 
 	
 	for ( i=0; i<SIZE; i++ ) {
-		printf ("ÇĞ¹ø : %d, ÀÌ¸§ %s, ÇĞÁ¡ %.1f\n", list[i].number, list[i].name, list[i].grade);
+		printf ("í•™ë²ˆ : %d, ì´ë¦„ %s, í•™ì  %.1f\n", list[i].number, list[i].name, list[i].grade);
 	}
 	
 	return 0;
