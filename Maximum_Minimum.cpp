@@ -15,6 +15,6 @@ int main (void) {
 	    if ( oddMax < array[i]) 
 			oddMax = array[i];
 	}
-	printf ("Ȧ�� �ִ� : %d, ¦�� �ִ� : %d", oddMax, evenMax);
+	printf ("È¦¼ö ÃÖ´ñ°ª : %d, Â¦¼ö ÃÖ´ñ°ª : %d", oddMax, evenMax);
 	return 0;
 }
