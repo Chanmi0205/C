@@ -1,7 +1,7 @@
 #include <stdio.h>
 main ( ) {
 	int m, a=1, b=10, d, cnt=1;
-	printf ("�Է� : ");
+	printf ("ÀÔ·Â : ");
 	scanf ("%d", &m); 
 	d = ( a + b ) / 2;  
 	while ( d != m ) { 
