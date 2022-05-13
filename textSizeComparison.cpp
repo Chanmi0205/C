@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-// µÎ ¹®ÀÚ¸¦ ºñ±³ÇÏ¿© °ªÀ» Ãâ·ÂÇÑ´Ù
+// ë‘ ë¬¸ìë¥¼ ë¹„êµí•˜ì—¬ ê°’ì„ ì¶œë ¥í•œë‹¤
  
 int main(void) {
 	char inputOne[5] = "A";
 	char inputTwo[5] = "B";
-	printf ("¹®ÀÚ¿­ ºñ±³ : %d\n", strcmp(inputOne, inputTwo));
+	printf ("ë¬¸ìì—´ ë¹„êµ : %d\n", strcmp(inputOne, inputTwo));
 	return 0;
 }
