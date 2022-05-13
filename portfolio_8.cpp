@@ -16,10 +16,10 @@ int main(void) {
 	struct rect r;
 	int w, h, area, peri;
 	
-	printf ("¿ŞÂÊ »ó´ÜÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("ì™¼ìª½ ìƒë‹¨ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%d %d", &r.p1.x, &r.p1.y);
 	
-	printf ("¿À¸¥ÂÊ  ÇÏ´ÜÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("ì˜¤ë¥¸ìª½  í•˜ë‹¨ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%d %d", &r.p2.x, &r.p2.y);
 	
 	w = abs(r.p2.x - r.p1.x);
@@ -28,6 +28,6 @@ int main(void) {
 	area = w * h;
 	peri = 2 * w + 2 * h;
 	
-	printf ("»ç°¢ÇüÀÇ ³ĞÀÌ´Â %dÀÌ°í, µÑ·¹´Â %dÀÔ´Ï´Ù. ", area, peri);
+	printf ("ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” %dì´ê³ , ë‘˜ë ˆëŠ” %dì…ë‹ˆë‹¤. ", area, peri);
 	return 0;
 }
