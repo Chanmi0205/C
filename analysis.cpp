@@ -8,21 +8,21 @@ int main(void) {
 	char word[256];
 	int line = 0;
 	
-	printf ("ÆÄÀÏ ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("íŒŒì¼ ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%s", fname);
 	
-	printf ("Å½»öÇÒ ´Ü¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("íƒìƒ‰í•  ë‹¨ì–´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%s", word);
 	
 	if ( (fp = fopen(fname, "r")) == NULL ) {
-		fprintf (stderr, "ÆÄÀÏ %sÀ» ¿­ ¼ö ¾ø½À´Ï´Ù. \n", fname);
+		fprintf (stderr, "íŒŒì¼ %sì„ ì—´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤. \n", fname);
 		return 0;
 	}
 	
 	while ( fgets (buffer, 256, fp)) {
 		line++;
 		if ( strstr(buffer, word)) {
-			printf ("¶óÀÎ %d : ´Ü¾î %sÀÌ(°¡) ¹ß°ßµÇ¾ú½À´Ï´Ù.\n", line, word);
+			printf ("ë¼ì¸ %d : ë‹¨ì–´ %sì´(ê°€) ë°œê²¬ë˜ì—ˆìŠµë‹ˆë‹¤.\n", line, word);
 		}
 	}
 		
