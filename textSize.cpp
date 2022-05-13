@@ -7,6 +7,6 @@ int main(void) {
 	while ( input[count] != '\0') {
 		count++;
 	} 
-	printf("ÀÔ·ÂÇÑ ¹®ÀÚ¿­ÀÇ ±æÀÌ´Â %dÀÔ´Ï´Ù.", count);
+	printf("ì…ë ¥í•œ ë¬¸ìì—´ì˜ ê¸¸ì´ëŠ” %dì…ë‹ˆë‹¤.", count);
 	return 0;
 }
