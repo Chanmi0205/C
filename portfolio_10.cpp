@@ -1,9 +1,9 @@
 #include <stdio.h>
 main ( ) {
 	int a, b, c;
-	printf ("ÃÊ ÀÔ·Â : ");
+	printf ("ì´ˆ ì…ë ¥ : ");
 	scanf ("%d", &a);
 	b = a / 60;
 	c = a % 60;
-	printf ("ÀÔ·ÂÇÏ½Å %dÃÊ´Â %dºĞ, %dÃÊ ÀÔ´Ï´Ù", a, b, c);
+	printf ("ì…ë ¥í•˜ì‹  %dì´ˆëŠ” %dë¶„, %dì´ˆ ì…ë‹ˆë‹¤", a, b, c);
 }
