@@ -1,11 +1,11 @@
-// ¹è¿­ : *µ¥ÀÌÅÍ°¡ ¸¹À» »ç¿ëÇÔ.*
+// ë°°ì—´ : *ë°ì´í„°ê°€ ë§ì„ ì‚¬ìš©í•¨.*
 #include <stdio.h>
 #include <limits.h>
 #define NUMBER 5 
 
 int main(void) {
 	int i, max, min, index;
-	int array[NUMBER]; //array[0] ~ array[4] : ÃÑ 5°³°¡ µé¾î°¥ ¼ö ÀÖ´Â Å©±âÀÇ ¹è¿­ ¼±¾ğ 
+	int array[NUMBER]; //array[0] ~ array[4] : ì´ 5ê°œê°€ ë“¤ì–´ê°ˆ ìˆ˜ ìˆëŠ” í¬ê¸°ì˜ ë°°ì—´ ì„ ì–¸ 
 	max = 0;
 	index = 0;
 	
@@ -16,7 +16,7 @@ int main(void) {
 			index = i;
 		}
 	}
-	printf ("°¡Àå Å« °ªÀº %dÀÔ´Ï´Ù. ±×¸®°í %d¹øÂ°¿¡ ÀÖ½À´Ï´Ù. \n", max, index+1);	
+	printf ("ê°€ì¥ í° ê°’ì€ %dì…ë‹ˆë‹¤. ê·¸ë¦¬ê³  %dë²ˆì§¸ì— ìˆìŠµë‹ˆë‹¤. \n", max, index+1);	
 
 	min = INT_MAX;		
 	for ( i=0; i<NUMBER; i++ ) {
@@ -26,7 +26,7 @@ int main(void) {
 			index = i;
 		}
 	}
-	printf ("°¡ÀåÀÛÀº °ªÀº %dÀÔ´Ï´Ù. ±×¸®°í %d¹øÂ°¿¡ ÀÖ½À´Ï´Ù. \n", min, index+1);	
+	printf ("ê°€ì¥ì‘ì€ ê°’ì€ %dì…ë‹ˆë‹¤. ê·¸ë¦¬ê³  %dë²ˆì§¸ì— ìˆìŠµë‹ˆë‹¤. \n", min, index+1);	
 	return 0;
 } 
 
