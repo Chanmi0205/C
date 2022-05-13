@@ -11,15 +11,15 @@ int main (void) {
 	int xDiff, yDiff;
 	double distance;
 	
-	printf ("1¹øÀÇ Á¡ÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("1ë²ˆì˜ ì ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%d %d",&p1.x,&p1.y);
 	
-	printf ("2¹øÀÇ Á¡ÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf ("2ë²ˆì˜ ì ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf ("%d %d",&p2.x,&p2.y);
 	
 	xDiff = p1.x - p2.y;
 	yDiff = p1.y - p2.y;
 	distance = sqrt(xDiff * xDiff + yDiff + yDiff);
-	printf ("µÎ Á¡ »çÀÌÀÇ °Å¸®´Â %fÀÔ´Ï´Ù.\n", distance);
+	printf ("ë‘ ì  ì‚¬ì´ì˜ ê±°ë¦¬ëŠ” %fì…ë‹ˆë‹¤.\n", distance);
 	return 0;
 }
