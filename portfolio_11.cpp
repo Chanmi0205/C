@@ -5,14 +5,14 @@ int main (void) {
 	int i;
 	
 	for ( i=0;  i<5; i++ ) {
-		printf ("%d¹ø ÇÐ»ýÀÇ ¼öÇÐ, ¿µ¾î Á¡¼ö : ", i + 1);
+		printf ("%dë²ˆ í•™ìƒì˜ ìˆ˜í•™, ì˜ì–´ ì ìˆ˜ : ", i + 1);
 		scanf ("%d %d", &score[i][0], &score[i][1]);
 	}
 	for ( i=0; i<5; i++ ) {
 		total[0] += score[i][0];
 		total[1] += score[i][1];
 	}
-	printf ("\n\n5¸íÀÇ ¼öÇÐ Á¡¼ö ÇÕ°è : %d\n", total[0]);
-	printf ("5¸íÀÇ ¿µ¾î Á¡¼ö ÇÕ°è : %d\n", total[1]);
+	printf ("\n\n5ëª…ì˜ ìˆ˜í•™ ì ìˆ˜ í•©ê³„ : %d\n", total[0]);
+	printf ("5ëª…ì˜ ì˜ì–´ ì ìˆ˜ í•©ê³„ : %d\n", total[1]);
 	return 0;
 }
