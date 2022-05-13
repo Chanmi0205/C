@@ -10,7 +10,7 @@ int main(void) {
 	
 	pi = (int *)calloc(size, sizeof(int));
 	while(1) {
-		printf("╬Г╪Ж╦╦ ют╥бго╪╪©Д :");
+		printf("б╬ц╖б╪ц╤б╦б╦ ц─ц■б╥ц┌ц┤ц▐б╪б╪б©ц╓ :");
 		scanf("%d", &num);
 		if ( num <= 0 ) break;
 		if ( count == size ) {
