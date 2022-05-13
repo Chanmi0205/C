@@ -7,7 +7,7 @@ main ( ) {
 	    for ( b=0; b<7; b++ )
 		    if ( nu[a] < nu[b] )
 			rank[a] = rank[a] + 1;
-			printf (" ¹øÈ£ Á¡¼ö ¼®Â÷\n");
+			printf (" Â¹Ã¸ÃˆÂ£ ÃÂ¡Â¼Ã¶ Â¼Â®Ã‚Ã·\n");
 		for ( a=0; a<7; a++ )
 		printf ("%4d %5d %4d\n", a+1, nu[a], rank[a]);  
 }
