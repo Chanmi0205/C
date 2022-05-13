@@ -7,10 +7,10 @@ main ( ) {
 		switch (k) {
 			case 1 : 
 			for ( a=1; a<=4; a++ ) 
-			num2[a] = num1[a-1]; break; //¿À¸¥ÂÊÀ¸·Î shift. num1°ª 10Áø¼ö·Î ¹Ù²Ù¾î num1/2ÀÇ n½ÂÇÔ
+			num2[a] = num1[a-1]; break; //ì˜¤ë¥¸ìª½ìœ¼ë¡œ shift. num1ê°’ 10ì§„ìˆ˜ë¡œ ë°”ê¾¸ì–´ num1/2ì˜ nìŠ¹í•¨
 			case 2 :
 				for ( a=1; a<=4; a++ ) 
-				num2[a-1] = num1[a]; break; //¿ÞÂÊÀ¸·Î shift. num1°ª 10Áø¼ö·Î ¹Ù²Ù¾î num1 * 2ÀÇ n½ÂÇÔ 
+				num2[a-1] = num1[a]; break; //ì™¼ìª½ìœ¼ë¡œ shift. num1ê°’ 10ì§„ìˆ˜ë¡œ ë°”ê¾¸ì–´ num1 * 2ì˜ nìŠ¹í•¨ 
 		}
 	}
 	for ( a=0; a<=4; a++ ) 
