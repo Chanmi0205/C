@@ -3,12 +3,12 @@
 int main(void) {
 	FILE *fp = NULL;
 	fp = fopen("output.txt", "w");
-	// w -> ¾²±â ¸ðµå(Write), r -> ÀÐ±â ¸ðµå (Read) 
+	// w -> ì“°ê¸° ëª¨ë“œ(Write), r -> ì½ê¸° ëª¨ë“œ (Read) 
 	if ( fp == NULL ) {
-		printf ("ÆÄÀÏ ¿­±â¿¡ ½ÇÆÐÇß½À´Ï´Ù. \n");
+		printf ("íŒŒì¼ ì—´ê¸°ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. \n");
 	}
 	else {
-		printf ("ÆÄÀÏ ¿­±â¿¡ ¼º°øÇß½À´Ï´Ù. \n");
+		printf ("íŒŒì¼ ì—´ê¸°ì— ì„±ê³µí–ˆìŠµë‹ˆë‹¤. \n");
 	}
 	fputc('H', fp);
 	fputc('E', fp);
