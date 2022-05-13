@@ -6,10 +6,10 @@ int main(void) {
 	
 	fp = fopen("input.txt", "r");
 	if ( fp == NULL) {
-		printf ("ÆÄÀÏ ¿­±â¿¡ ½ÇÆĞÇß½À´Ï´Ù. \n");
+		printf ("íŒŒì¼ ì—´ê¸°ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. \n");
 	}
 	else {
-		printf ("ÆÄÀÏ ¿­±â¿¡ ¼º°øÇß½À´Ï´Ù. \n");
+		printf ("íŒŒì¼ ì—´ê¸°ì— ì„±ê³µí–ˆìŠµë‹ˆë‹¤. \n");
 	}
 	while((c = fgetc(fp)) != EOF ) {
 		putchar(c); 
