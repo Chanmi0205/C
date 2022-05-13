@@ -9,7 +9,7 @@ main ( ) {
 		temp = c[a];
 		c[a] = c[min];
 		c[min] = temp;
-		printf("\n%d ȸ�� \n", a+1);
+		printf("\n%d È¸Àü \n", a+1);
 		for ( b=0; b<=4; b++ ) 
 		printf ("%3d", c[b]);
 	}
